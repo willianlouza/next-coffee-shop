@@ -10,9 +10,9 @@ export default function PopularProducts() {
           <h1 className="font-title text-4xl">Mais Populares</h1>
         </div>
         <div className="flex flex-wrap lg:flex-nowrap gap-6 place-content-center">
-          <ProductCard title="Frutas Vermelhas" price={72} rate={4} />
-          <ProductCard title="Favo de Mel" price={72} rate={5} delay={0.2} />
-          <ProductCard title="Kawá Caramelo" price={72} rate={4} delay={0.4} />
+          <ProductCard key={0} title="Frutas Vermelhas" price={72} rate={4} />
+          <ProductCard key={1} title="Favo de Mel" price={72} rate={5} delay={0.2} />
+          <ProductCard key={2} title="Kawá Caramelo" price={72} rate={4} delay={0.4} />
         </div>
         <ButtonPrimary className="w-48" text="Ver Produtos" />
       </div>

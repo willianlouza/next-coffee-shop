@@ -9,7 +9,7 @@ export default function News() {
           <h1 className="font-title text-4xl">Mais Recentes</h1>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-12 lg:place-content-between w-full">
+        <div className="flex flex-col lg:flex-row flex-wrap lg:place-items-center gap-12 place-content-center w-full">
           <NewsCard
             image="/images/coffee-1.jpg"
             author="Lays"
